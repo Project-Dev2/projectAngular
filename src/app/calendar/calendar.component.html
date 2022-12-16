@@ -1,0 +1,41 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-2 dashboard bg-light">
+            <button class="btn rounded-0 mb-2">Schedule new lesson</button>
+            <button class="btn rounded-0 mb-2">Add time off</button>
+            <button class="btn rounded-0 mb-2">Set up availability</button>
+            <h1 class="mt-3">Tags</h1>
+            <div class="firstLesson">
+                <i class="bi bi-circle-fill"></i>
+                <span>First Lesson</span>
+            </div>
+            <div class="singleLesson">
+                <i class="bi bi-circle-fill"></i>
+                <span>Single Lesson</span>
+            </div>
+            <div class="weeklyLesson">
+                <i class="bi bi-circle-fill"></i>
+                <span>Weekly Lesson</span>
+            </div>
+            <div class="timeOff">
+                <i class="bi bi-circle-fill"></i>
+                <span>Time off</span>
+            </div>
+            <div class="googleCalendar">
+                <i class="bi bi-circle-fill"></i>
+                <span>Google Calendar</span>
+            </div>
+            <div>
+                <i class="bi bi-check-circle-fill"></i>
+                <span>Confirmed by student</span>
+            </div>
+            <div>
+                <i class="bi bi-dash-circle-fill"></i>
+                <span>Not Confirmed by student</span>
+            </div>
+        </div>
+        <div class="col-lg-10 calendar">
+            <p-fullCalendar [events]="events" [options]="options"></p-fullCalendar>
+        </div>
+    </div>
+</div>

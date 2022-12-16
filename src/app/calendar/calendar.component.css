@@ -1,0 +1,54 @@
+@media (min-width: 992px) {
+    .calendar {
+        padding: 60px 30px;
+    }
+}
+@media (max-width: 992px) {
+    .calendar {
+        padding-top: 30px;
+    }
+}
+.btn {
+    width: 100%;
+    color: #02377D;
+    border: 1px solid #02377D;
+    background-color: #fff;
+    font-weight: 500;
+    outline: none;
+}
+.dashboard {
+    padding-top: 45px;
+}
+.btn:focus {
+    color: #fff;
+    background-color: #02377D;
+}
+h1 {
+    font-size: 15px;
+}
+.bi {
+    margin-right: 10px;
+}
+span {
+    font-weight: 500;
+    font-size: 15px;
+}
+.bi-check-circle-fill{
+    color: #524f4f;
+}
+.bi-dash-circle-fill{
+    color: #a8a5a5;
+}
+.firstLesson .bi {
+    color: rgb(141, 184, 78);
+}
+.singleLesson .bi {
+    color: rgb(36, 203, 245);
+}
+.weeklyLesson .bi {
+    color: royalblue;
+}
+.timeOff .bi {
+    color: rgb(255, 123, 0);
+}
+
